@@ -17,15 +17,18 @@ var _jsxFileName = "/Users/jacquelline/Documents/hello-next/components/Header.js
 
 
 var linkStyle = {
-  listStyleType: "none"
+  listStyleType: "none",
+  textDecoration: "none"
 };
 var titleName = {
   margin: 0,
   width: "100%",
   fontSize: "10rem",
-  letterSpacing: "1.5rem"
+  letterSpacing: "1.5rem",
+  textAlign: "center"
 };
 var flexNav = {
+  color: "b3b177",
   display: "flex",
   alignItems: "stretch",
   justifyContent: "space-between"
@@ -35,14 +38,14 @@ var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 24
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     style: titleName,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -51,7 +54,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 26
     },
     __self: this
   }, "J"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -60,7 +63,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 27
     },
     __self: this
   }, "a"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -69,7 +72,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 28
     },
     __self: this
   }, "c"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -78,7 +81,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 29
     },
     __self: this
   }, "q"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -87,7 +90,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 30
     },
     __self: this
   }, "u"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -96,7 +99,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 31
     },
     __self: this
   }, "e"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -105,7 +108,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 32
     },
     __self: this
   }, "l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -114,7 +117,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 33
     },
     __self: this
   }, "l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -123,7 +126,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 34
     },
     __self: this
   }, "i"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -132,7 +135,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 35
     },
     __self: this
   }, "n"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -141,32 +144,18 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 36
     },
     __self: this
   }, "e")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
     style: flexNav,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
@@ -179,8 +168,8 @@ var Header = function Header() {
       lineNumber: 40
     },
     __self: this
-  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "portforlio",
+  }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/about",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
@@ -193,8 +182,8 @@ var Header = function Header() {
       lineNumber: 43
     },
     __self: this
-  }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "contact",
+  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "portforlio",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
@@ -207,6 +196,20 @@ var Header = function Header() {
       lineNumber: 46
     },
     __self: this
+  }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
   }, "Contact"))));
 };
 
@@ -215,4 +218,4 @@ var Header = function Header() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.c51e40059a907d7df8c5.hot-update.js.map
+//# sourceMappingURL=index.js.d356bf54efbe30bf40d4.hot-update.js.map

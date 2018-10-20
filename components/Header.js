@@ -2,6 +2,9 @@ import Link from 'next/link'
 
 const linkStyle = { 
     listStyleType: "none",
+    textDecoration: "none",
+    color: "#b3b177",
+    fontSize: "3.5rem"
 }
 
 const titleName = {
@@ -9,12 +12,15 @@ const titleName = {
     width: "100%",
     fontSize: "10rem",
     letterSpacing: "1.5rem",
+    textAlign: "center"
 }
 
 const flexNav = {
+  color: "b3b177",
   display: "flex",
   alignItems: "stretch",
   justifyContent: "space-between",
+  marginTop: "3rem"
 }
 
 const Header  = () => (
