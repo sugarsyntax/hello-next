@@ -1,12 +1,25 @@
 import Link from 'next/link'
 
-const linkStyle = {
-    margin: 15 
+const linkStyle = { 
+    margin: 0,
+    padding: 0,
+    listStyleType: "none",
+    justifyContent: "space-between",
+}
+
+const titleName = {
+    margin: 0,
+    width: "100%",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: "10rem",
+    letterSpacing: "1.5rem",
 }
 
 const Header  = () => (
     <div>
-      <h1>
+      <h1 style={titleName}>
         <span style={{ color:"#fb9999" }}>J</span>
         <span style={{ color:"#fc9ca7" }}>a</span>
         <span style={{ color:"#fc9fb4" }}>c</span>
