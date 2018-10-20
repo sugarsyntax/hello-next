@@ -17,35 +17,32 @@ var _jsxFileName = "/Users/jacquelline/Documents/hello-next/components/Header.js
 
 
 var linkStyle = {
-  margin: 0,
-  padding: 0,
-  listStyleType: "none",
-  display: "flex",
-  textAlign: "center",
-  justifyContent: "space-between"
+  listStyleType: "none"
 };
 var titleName = {
   margin: 0,
   width: "100%",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
   fontSize: "10rem",
   letterSpacing: "1.5rem"
+};
+var flexNav = {
+  display: "flex",
+  alignItems: "stretch",
+  justifyContent: "space-between"
 };
 
 var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     style: titleName,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -54,7 +51,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 23
     },
     __self: this
   }, "J"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -63,7 +60,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 24
     },
     __self: this
   }, "a"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -72,7 +69,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 25
     },
     __self: this
   }, "c"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -81,7 +78,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 26
     },
     __self: this
   }, "q"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -90,7 +87,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 27
     },
     __self: this
   }, "u"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -99,7 +96,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 28
     },
     __self: this
   }, "e"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -108,7 +105,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 29
     },
     __self: this
   }, "l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -117,7 +114,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 30
     },
     __self: this
   }, "l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -126,7 +123,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 31
     },
     __self: this
   }, "i"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -135,7 +132,7 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 32
     },
     __self: this
   }, "n"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -144,66 +141,73 @@ var Header = function Header() {
     },
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "e")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+    style: flexNav,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  }, "e")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 37
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 40
     },
     __self: this
   }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "portforlio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 43
     },
     __self: this
   }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 46
     },
     __self: this
-  }, "Contact")));
+  }, "Contact"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -211,4 +215,4 @@ var Header = function Header() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.ff01b397dbddcc3cae06.hot-update.js.map
+//# sourceMappingURL=index.js.c51e40059a907d7df8c5.hot-update.js.map

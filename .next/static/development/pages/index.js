@@ -17,19 +17,18 @@ var _jsxFileName = "/Users/jacquelline/Documents/hello-next/components/Header.js
 
 
 var linkStyle = {
-  margin: 0,
-  padding: 0,
-  listStyleType: "none",
-  justifyContent: "space-between"
+  listStyleType: "none"
 };
 var titleName = {
   margin: 0,
   width: "100%",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
   fontSize: "10rem",
   letterSpacing: "1.5rem"
+};
+var flexNav = {
+  display: "flex",
+  alignItems: "stretch",
+  justifyContent: "space-between"
 };
 
 var Header = function Header() {
@@ -145,63 +144,70 @@ var Header = function Header() {
       lineNumber: 33
     },
     __self: this
-  }, "e")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
+  }, "e")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+    style: flexNav,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 40
     },
     __self: this
   }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "portforlio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 43
     },
     __self: this
   }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 46
     },
     __self: this
-  }, "Contact")));
+  }, "Contact"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);

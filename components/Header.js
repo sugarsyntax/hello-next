@@ -1,20 +1,20 @@
 import Link from 'next/link'
 
 const linkStyle = { 
-    margin: 0,
-    padding: 0,
     listStyleType: "none",
-    justifyContent: "space-between",
 }
 
 const titleName = {
     margin: 0,
     width: "100%",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
     fontSize: "10rem",
     letterSpacing: "1.5rem",
+}
+
+const flexNav = {
+  display: "flex",
+  alignItems: "stretch",
+  justifyContent: "space-between",
 }
 
 const Header  = () => (
@@ -32,6 +32,7 @@ const Header  = () => (
         <span style={{ color:"#72eb74" }}>n</span>
         <span style={{ color:"#aadfe7" }}>e</span>
       </h1>
+      <nav style={flexNav}>
         <Link href="/">
           <a style={linkStyle}>Home</a>
         </Link>
@@ -44,6 +45,7 @@ const Header  = () => (
         <Link href="contact">
           <a style={linkStyle}>Contact</a>
         </Link>
+      </nav>
     </div>
 )
 
