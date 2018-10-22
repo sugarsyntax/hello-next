@@ -45,10 +45,10 @@ const Header  = () => (
       </h1>
       </Link>
       <nav style={flexNav}>
-        <Link href="/about">
+        <Link href="about">
           <a style={linkStyle}>About</a>
         </Link>
-        <Link href="portforlio">
+        <Link href="portfolio">
           <a style={linkStyle}>Portfolio</a>
         </Link>
         <Link href="contact">
